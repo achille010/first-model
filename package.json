@@ -1,0 +1,21 @@
+{
+  "name": "firstmodel",
+  "version": "1.0.0",
+  "description": "A trial of the OpeanAI library",
+  "keywords": [],
+  "license": "ISC",
+  "author": "Achille",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "openai": "^6.25.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
